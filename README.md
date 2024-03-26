@@ -1,6 +1,6 @@
 # DJS02
 
-## PLEASE NOTE:
+### PLEASE NOTE:
 
 This exercise provides user stories in [the Gherkin syntax](https://docs.behat.org/en/v2.5/guides/1.gherkin.html), covered in Documentation - Reading Material<!--Link to Module 2 Lesson 4 on Documentation-->. Please make sure you understand the use and meaning of this syntax before continuing.
 
@@ -9,7 +9,7 @@ This exercise provides user stories in [the Gherkin syntax](https://docs.behat.o
 Below is the HTML and JavaScript code for a “Whole Number Divider”. At the moment it only meets two user stories (see below under “Resolved Stories”). Please ensure that it meets all user stories listed below:
 
  
-<h3 style="color:#e67e22">Resolved Stories</h3>
+<h2 style="color:#e67e22">Resolved Stories</h2>
 
 ### Scenario: Starting program state
 
@@ -24,7 +24,7 @@ Below is the HTML and JavaScript code for a “Whole Number Divider”. At the m
 - AND 10 is entered into the second input
 - THEN 2 should be displayed at the bottom
  
-<h3 style="color:#e67e22">Unresolved Stories</h3> 
+<h2 style="color:#e67e22">Unresolved Stories</h2> 
 
 ### Scenario: Dividing numbers result in a decimal number
 
