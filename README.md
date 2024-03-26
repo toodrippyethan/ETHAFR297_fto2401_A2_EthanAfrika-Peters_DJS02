@@ -9,7 +9,8 @@ This exercise provides user stories in [the Gherkin syntax](https://docs.behat.o
 Below is the HTML and JavaScript code for a “Whole Number Divider”. At the moment it only meets two user stories (see below under “Resolved Stories”). Please ensure that it meets all user stories listed below:
 
  
-### Resolved Stories
+<h3 style="color:#e67e22">Resolved Stories</h3>
+
 ### Scenario: Starting program state
 
 - GIVEN that the submit button has not been pressed yet
@@ -23,7 +24,8 @@ Below is the HTML and JavaScript code for a “Whole Number Divider”. At the m
 - AND 10 is entered into the second input
 - THEN 2 should be displayed at the bottom
  
-### Unresolved Stories
+<h3 style="color:#e67e22">Unresolved Stories</h3> 
+
 ### Scenario: Dividing numbers result in a decimal number
 
 - GIVEN that the submit button is pressed
