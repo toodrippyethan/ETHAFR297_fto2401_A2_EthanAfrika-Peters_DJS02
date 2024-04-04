@@ -2,7 +2,7 @@
 
 ### PLEASE NOTE:
 
-This exercise provides user stories in [the Gherkin syntax](https://docs.behat.org/en/v2.5/guides/1.gherkin.html), covered in Documentation - Reading Material<!--Link to Module 2 Lesson 4 on Documentation-->. Please make sure you understand the use and meaning of this syntax before continuing.
+This exercise provides user stories in [the Gherkin syntax](https://docs.behat.org/en/v2.5/guides/1.gherkin.html), covered in [Documentation - Reading Material](https://learn.codespace.co.za/courses/168/modules/579/lessons/2433). Please make sure you understand the use and meaning of this syntax before continuing.
 
  
 
