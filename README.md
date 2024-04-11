@@ -79,47 +79,7 @@ The provided HTML and JavaScript setup a basic form for inputting two numbers (d
 #### Submission Requirements
 
 - Updated HTML and JavaScript files.
-- A brief report summarising the changes made to address each user story, including how you tested your application.
+- Submit your project to the LMS Project Tab for DJS02
 
 This project challenges you to think critically about user input, error handling, and providing a seamless user experience. Ensure your solution is robust, user-friendly, and meets the specified requirements.
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whole Number Division</title>
-    <script src="./scripts.js" defer type="module"></script>
-</head>
-<body>
-    <h1>Whole Number Division</h1>
-    <form data-form="data-form">
-        <label>
-            <span>Dividend</span>
-            <input name="dividend" />
-        </label>
-        <label>
-            <span>Divider</span>
-            <input name="divider" />
-        </label>
-        <button type="submit">Calculate</button>
-    </form>
-    <hr />
-    <div data-result="data-result">No calculation performed</div>
-</body>
-</html>
-```
-
-```javascript
-const form = document.querySelector("[data-form]");
-const result = document.querySelector("[data-result]");
-
-form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const entries = new FormData(event.target);
-    const { dividend, divider } = Object.fromEntries(entries);
-    result.innerText = dividend / divider; // Note: This logic will need to be updated to satisfy unresolved user stories.
-});
-```
 
